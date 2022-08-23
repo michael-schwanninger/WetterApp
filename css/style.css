@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lexend", sans-serif;
+    color: white;
+}
+
+/*
+    Todays weather
+*/
+
+#weather {
+    height: calc(100vh - 250px);
+    display: flex;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card {
+    margin: auto;
+    padding: 40px;
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+#weather__temp {
+    margin: 5px 0;
+}
+
+/*
+    Weather forecast
+*/
+
+.forecast {
+    min-height: 250px;
+    max-width: 100vw;
+    background-color: black;
+}
+
+.forecast__title {
+    text-align: center;
+    padding: 20px 0 25px;
+}
+
+.forecast__container {
+    max-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.forecast__item {
+    width: 178px;
+    padding: 10px 5px;
+    margin: 1rem;
+    text-align: center;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.forecast__item__day {
+    font-weight: bold;
+}

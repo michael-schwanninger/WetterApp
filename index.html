@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wetter App</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body id="body">
+    <div id="weather">
+      <div class="card">
+        <h2 id="weather__city">Wetter in Aldrans</h2>
+        <h1 id="weather__temp">20 °C</h1>
+        <div id="weather__description">Sonnig</div>
+        <div id="weather__wind-speed">Windgeschwindigkeit: 10 km/h</div>
+        <div id="weather__humidity">Luftfeuchtigkeit: 60%</div>
+        <div id="weather__sunrise">Sonnenaufgang: 06:00</div>
+        <div id="weather__sunset">Sonnenuntergang: 22:00</div>
+      </div>
+    </div>
+      <div class="forecast">
+        <h1 class="forecast__title">Tagesvorhersagen</h1>
+        <div class="forecast__container">
+        </div>
+      </div>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
